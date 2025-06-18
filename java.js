@@ -203,4 +203,5 @@ if (checkCollision(player, plat)) {
     player.onGround = true;
   } else if (player.dy < 0 && player.y >= plat.y + plat.height) {
     // colisão por baixo
-    player.y = plat.y + plat.height;
+    player.y = plat.y + plat.height};
+  }
